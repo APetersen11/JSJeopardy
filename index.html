@@ -5,33 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>JS Jeopardy!</title>
   </head>
   <body>
+    <header>
+      <p>Timer: <span id="time"></span></p>
+    </header>
 
     <div id="start-container">
-
+      <h1>JS Jeopardy!</h1>
+      <p>Test your knowledge! Click the button below to start!</p>
+      <button id="start-quiz">Start</button>
     </div>
 
-    <div id="question-container">
-        <h2 class='qTitle'></h2>
-        <div class="choices">
-
-        </div>
+    <div id="question-container" style="display: none">
+      <h2 id="qTitle"></h2>
+      <div id="choices">
         
-
+      </div>
     </div>
 
-    <div id="end-container">
-        <!-- End Quiz banner -->
+    <div id="end-container" style="display: none">
+      <h1>Congratulations! You've finished your quiz!</h1>
 
-        <!-- Show score -->
+      <p>Your score is: <span id="user-score"></span></p>
 
-        <!-- input to enter initials -->
+      <p>Enter initials here: <input id="initials" /></p>
 
-        <!-- submit button -->
+      <button id="initials-submit">Submit</button>
     </div>
-
 
     <script src="./assets/js/script.js"></script>
   </body>
