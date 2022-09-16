@@ -16,7 +16,7 @@ No installation necessary.
 
 Once the start quiz button is hit the user will be prompted to select the correct response to the question. If they answer correctly, the timer stays the same and the next question appears. If they answer incorrectly, 5 seconds is deducted from the timer and the next question is displayed. After all questions are completed or when time runs out users can enter their initials and the top 5 scores (equivalent to the time remaining) will be saved in local storage.
 
-The repo for this project can be found here: (https://github.com/APetersen11/JSJeopardywa)
+The repo for this project can be found here: (https://github.com/APetersen11/JSJeopardy)
 
 And the deployed project can be found here: (https://apetersen11.github.io/JSJeopardy/)
 
