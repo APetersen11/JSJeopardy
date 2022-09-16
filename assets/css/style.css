@@ -1,0 +1,9 @@
+.choiceBtn {
+    color: black;
+    margin: 5px;
+    background-color: #5bc0de;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    padding: 10px 32px;
+}
